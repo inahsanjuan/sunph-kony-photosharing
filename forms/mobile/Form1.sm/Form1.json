@@ -31,7 +31,7 @@
     "canUpdateUI": true,
     "children": [
         "FlexContainer0h4dc8554c07f4a",
-        "Label0b5e80ca9e56d4c"
+        "lblCrazy"
     ],
     "containerweight": 100,
     "controllerInfo": {

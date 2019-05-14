@@ -5,8 +5,10 @@
   "androidwearos": {
     "font_name": "default"
   },
-  "background_color": "d923d9ff",
-  "bg_type": "one",
+  "background_gradient_bottom_color": "73b2ffff",
+  "background_gradient_top_color": "fc7777ff",
+  "background_style": "vg",
+  "bg_type": "two",
   "border_color": "000000ff",
   "border_style": "plain",
   "border_type": 0,
