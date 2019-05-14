@@ -28,6 +28,7 @@
     "androidwearos": {
         "needAppMenu": false
     },
+    "annotationId": "hf5f213d02a14910b3908f1ab59a1d20",
     "canUpdateUI": true,
     "children": [
         "FlexContainer0h4dc8554c07f4a",
