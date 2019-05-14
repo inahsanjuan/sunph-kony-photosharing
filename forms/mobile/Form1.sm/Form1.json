@@ -44,7 +44,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "Pixel3",
+    "device": "iPhoneXS",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "Form1",
@@ -97,14 +97,15 @@
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
+    "noteId": "7f0f-fb1a-abfd-3358-9b88-bf05",
     "paddinginpixel": false,
-    "platform": "android",
+    "platform": "iphone",
     "prevDevice": "Pixel3",
-    "prevPlatform": "spaan",
+    "prevPlatform": "android",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
-    "shellCSS": "and_Pixel3",
+    "shellCSS": "iOS_iPhoneXS",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {
