@@ -35,7 +35,9 @@
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "Image0a063123e30b842"
+    ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
