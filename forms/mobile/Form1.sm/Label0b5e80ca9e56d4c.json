@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "31dp"
+        "value": "9dp"
     },
     "_margin_": [
         1,
@@ -22,11 +22,11 @@
         0,
         0
     ],
-    "_skin_": "s04b3297867d4f35aa724af55b10ab04",
+    "_skin_": "sf0ae9ef5557473f905bf358ffaaf976",
     "_text_": "Hi der! =) How is the world?",
     "_top_": {
         "type": "string",
-        "value": "104dp"
+        "value": "114dp"
     },
     "_width_": {
         "type": "ref",
@@ -40,8 +40,12 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
-    "contentalignment": 4,
+    "contentalignment": 5,
     "id": "Label0b5e80ca9e56d4c",
     "info": null,
     "ipad": {

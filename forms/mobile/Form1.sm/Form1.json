@@ -44,7 +44,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "Pixel3",
+    "device": "PixelXL",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "Form1",
@@ -99,12 +99,12 @@
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "android",
-    "prevDevice": "Pixel3",
+    "prevDevice": "GalaxyNote9",
     "prevPlatform": "spaan",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
-    "shellCSS": "and_Pixel3",
+    "shellCSS": "and_PixelXL",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {
