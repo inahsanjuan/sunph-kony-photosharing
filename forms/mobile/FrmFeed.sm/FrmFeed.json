@@ -30,23 +30,25 @@
     },
     "canUpdateUI": true,
     "children": [
-        "flxRegister"
+        "flxScrFeed",
+        "Navigation",
+        "Head"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "FrmRegisterController"
+            "name": "FrmFeedController"
         }
     },
     "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "Pixel",
+    "device": "iPhone7",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "FrmRegister",
+    "id": "FrmFeed",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -64,7 +66,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "fb788da331c54ab8a67590785928eb50",
+                "kuid": "e3b6f18320314524af333796ccea29f2",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -75,7 +77,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "h585744b38344382bd841599f14b8bb1",
+                        "kuid": "dee771f249cb4829ac7c35cb265b0631",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -92,18 +94,18 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "a551dcdddb864b2aafb661e260d8a845",
+    "kuid": "i0489af711e54384a65946f0026faec4",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
-    "platform": "android",
-    "prevDevice": "iPhoneXS",
+    "platform": "iphone",
+    "prevDevice": "iPhoneSE",
     "prevPlatform": "spaip",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
-    "shellCSS": "and_Pixel",
+    "shellCSS": "iOS_iPhone7",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {
