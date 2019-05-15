@@ -31,53 +31,53 @@ velocity.log
 # during the build, provided that folder resources/customlibs exists. Consider adding a .gitkeep 
 # file in order to force it into source control.
 
-# resources/customlibs/sdkplugin.properties
+resources/customlibs/sdkplugin.properties
 
 # The jar's and zip's under these directories can be ignored so long as
 # sdkplugin.properties (See above) is also ignored. The missing sdkplugin.properties will
 # trigger the regeneration of these jar's and zip's during the build.
-# resources/customlibs/lib/android/
-# resources/customlibs/lib/tabrcandroid/
-# resources/customlibs/lib/iphone/
-# resources/customlibs/lib/ipad/
-# resources/customlibs/lib/windows10/
-# resources/customlibs/lib/winphone10/
+resources/customlibs/lib/android/
+resources/customlibs/lib/tabrcandroid/
+resources/customlibs/lib/iphone/
+resources/customlibs/lib/ipad/
+resources/customlibs/lib/windows10/
+resources/customlibs/lib/winphone10/
 
 # The missing sdkplugin.properties will regenerate below files
-# resources/customlibs/jsSrc/android/com/konylabs/ffi/N_KonyLogger.java
-# resources/customlibs/jsSrc/tabrcandroid/com/konylabs/ffi/N_KonyLogger.java
-# resources/customlibs/jsSrc/kiosk/KonyLogger.js
-# resources/customlibs/jsSrc/kiosk/KonyLogger.xml
-# resources/customlibs/jsSrc/windows8/KonyLogger.js
-# resources/customlibs/jsSrc/windows8/KonyLogger.xml
-# resources/customlibs/jsSrc/winmobile/KonyLogger.js
-# resources/customlibs/jsSrc/winmobile/KonyLogger.xml
-# resources/customlibs/jsSrc/winphone8/KonyLogger.js
-# resources/customlibs/jsSrc/winphone8/KonyLogger.xml
-# resources/customlibs/jsSrc/winphone81s/KonyLogger.js
-# resources/customlibs/jsSrc/winphone81s/KonyLogger.xml
-# resources/customlibs/jsXml/KonyLogger.js
-# resources/customlibs/jsXml/KonyLogger.xml
-# resources/customlibs/jsSrc/kiosk/SSOFFI.js
-# resources/customlibs/jsSrc/kiosk/SSOFFI.xml
-# resources/customlibs/jsSrc/windows8/SSOFFI.js
-# resources/customlibs/jsSrc/windows8/SSOFFI.xml
-# resources/customlibs/jsSrc/winmobile/SSOFFI.js
-# resources/customlibs/jsSrc/winmobile/SSOFFI.xml
-# resources/customlibs/jsSrc/winphone8/SSOFFI.js
-# resources/customlibs/jsSrc/winphone8/SSOFFI.xml
-# resources/customlibs/jsSrc/winphone81s/SSOFFI.js
-# resources/customlibs/jsSrc/winphone81s/SSOFFI.xml
-# resources/customlibs/jsXml/SSOFFI.js
-# resources/customlibs/jsXml/SSOFFI.xml
-# resources/customlibs/jsSrc/android/com/konylabs/ffi/ND_binary_util.java
-# resources/customlibs/jsSrc/android/com/konylabs/ffi/N_binarydata.java
-# resources/customlibs/jsSrc/tabrcandroid/com/konylabs/ffi/ND_binary_util.java
-# resources/customlibs/jsSrc/tabrcandroid/com/konylabs/ffi/N_binarydata.java
-# resources/customlibs/jsXml/binary.util.js
-# resources/customlibs/jsXml/binary.util.xml
-# resources/customlibs/jsXml/binarydata.js
-# resources/customlibs/jsXml/binarydata.xml
+resources/customlibs/jsSrc/android/com/konylabs/ffi/N_KonyLogger.java
+resources/customlibs/jsSrc/tabrcandroid/com/konylabs/ffi/N_KonyLogger.java
+resources/customlibs/jsSrc/kiosk/KonyLogger.js
+resources/customlibs/jsSrc/kiosk/KonyLogger.xml
+resources/customlibs/jsSrc/windows8/KonyLogger.js
+resources/customlibs/jsSrc/windows8/KonyLogger.xml
+resources/customlibs/jsSrc/winmobile/KonyLogger.js
+resources/customlibs/jsSrc/winmobile/KonyLogger.xml
+resources/customlibs/jsSrc/winphone8/KonyLogger.js
+resources/customlibs/jsSrc/winphone8/KonyLogger.xml
+resources/customlibs/jsSrc/winphone81s/KonyLogger.js
+resources/customlibs/jsSrc/winphone81s/KonyLogger.xml
+resources/customlibs/jsXml/KonyLogger.js
+resources/customlibs/jsXml/KonyLogger.xml
+resources/customlibs/jsSrc/kiosk/SSOFFI.js
+resources/customlibs/jsSrc/kiosk/SSOFFI.xml
+resources/customlibs/jsSrc/windows8/SSOFFI.js
+resources/customlibs/jsSrc/windows8/SSOFFI.xml
+resources/customlibs/jsSrc/winmobile/SSOFFI.js
+resources/customlibs/jsSrc/winmobile/SSOFFI.xml
+resources/customlibs/jsSrc/winphone8/SSOFFI.js
+resources/customlibs/jsSrc/winphone8/SSOFFI.xml
+resources/customlibs/jsSrc/winphone81s/SSOFFI.js
+resources/customlibs/jsSrc/winphone81s/SSOFFI.xml
+resources/customlibs/jsXml/SSOFFI.js
+resources/customlibs/jsXml/SSOFFI.xml
+resources/customlibs/jsSrc/android/com/konylabs/ffi/ND_binary_util.java
+resources/customlibs/jsSrc/android/com/konylabs/ffi/N_binarydata.java
+resources/customlibs/jsSrc/tabrcandroid/com/konylabs/ffi/ND_binary_util.java
+resources/customlibs/jsSrc/tabrcandroid/com/konylabs/ffi/N_binarydata.java
+resources/customlibs/jsXml/binary.util.js
+resources/customlibs/jsXml/binary.util.xml
+resources/customlibs/jsXml/binarydata.js
+resources/customlibs/jsXml/binarydata.xml
 
 # Visualizer headless build configuration files
 # HeadlessBuild.properties
