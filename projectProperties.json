@@ -32,6 +32,7 @@
     "Pictures_Library_Access": "true",
     "Proximity": "true",
     "Removable_Storage": "true",
+    "SELECTED_THEME": "default",
     "Server side mobile web": "false",
     "Shared_User_Certificate": "true",
     "Shared_User_Certificates": "true",
@@ -89,6 +90,138 @@
     "applepushfunc": "None",
     "apploadeventkey": "None",
     "applogokey": "",
+    "appmenu": {
+        "desktop": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "a8151ac3856f4a70aaf369da446a50c2",
+                    "title": "Item 1"
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "g7624fd0c4b64b1ba43c492ef78c8f05",
+                    "title": "Item 2"
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "da8c68c9549848a3a0f4a35d637a51c5",
+                    "title": "Item 3"
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "e378713bc52c4575aa4106d1042d4241",
+                    "title": "Item 4"
+                }
+            ]
+        },
+        "focusSkin": null,
+        "focusskin": null,
+        "mobile": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "e60fcbeb6637418c98dc2627a5aa837e",
+                    "title": "Item 1"
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "f3e627668474429d8e6574ff607d0b3c",
+                    "title": "Item 2"
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "a5ed950c1e154ca0a62618f8469720fa",
+                    "title": "Item 3"
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "c80a1d9f4abd47f6b2da38eabcb20fa6",
+                    "title": "Item 4"
+                }
+            ]
+        },
+        "osPlatform": "",
+        "osVersion": "iOS7",
+        "skin": null,
+        "tablet": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "c2f977074f6c49d59345550c23edf830",
+                    "title": "Item 1",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "b2304b848937483a8863573fa34de179",
+                    "title": "Item 2",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "h280915fa8ee402184a56a586dfd8a75",
+                    "title": "Item 3",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "iab3c8af0fdd40909ce50ca36e70470c",
+                    "title": "Item 4",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                }
+            ]
+        },
+        "wType": "Appmenu"
+    },
     "appnamekey": "PhotoShare",
     "appointments": "false",
     "apppackagekey": "com.orgname.PhotoShare",
@@ -121,7 +254,11 @@
     "camerasettings": "",
     "category": "app",
     "chat": "false",
-    "cloud_account_guid": "b3496998-9505-4785-921e-ff747ce33515",
+    "cloud_account_guid": "6e73d8b4-4c5e-4db4-aa39-120176c2f3ec",
+    "cloud_account_id": "100028560",
+    "cloud_env_GUID": "f0b6f1e3-421b-44da-b672-58f09e0fd277",
+    "cloud_env_name": "Jorge Lim-M100028560001",
+    "cloud_url": "https://m100028560001.konycloud.com",
     "codeGeneration": "false",
     "contacts": "false",
     "cordovaModified": false,
@@ -536,9 +673,10 @@
     "spawindows480basefontsize": "12",
     "spawindowstabbasefontsize": "17",
     "splashlogokey": "",
-    "startupformkey": "",
+    "startupformkey": "a551dcdddb864b2aafb661e260d8a845",
     "statusBarHidden": "false",
     "statusBarStyle": "STATUS_BAR_STYLE_DEFAULT",
+    "studiovizproject": "true",
     "support64bit": "false",
     "support64bitandwear": "false",
     "supportX86Devices": "false",
