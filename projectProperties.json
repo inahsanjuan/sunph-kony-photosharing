@@ -160,7 +160,7 @@
                         "default": "option4.png"
                     },
                     "id": "appmenuitemid4",
-                    "kuid": "c80a1d9f4abd47f6b2da38eabcb20fa6",
+                    "kuid": "ae8202279a8445c79a9938b65e14e066",
                     "title": "Item 4"
                 }
             ]
@@ -254,7 +254,7 @@
     "camerasettings": "",
     "category": "app",
     "chat": "false",
-    "cloud_account_guid": "6e73d8b4-4c5e-4db4-aa39-120176c2f3ec",
+    "cloud_account_guid": "b3496998-9505-4785-921e-ff747ce33515",
     "cloud_account_id": "100028560",
     "cloud_env_GUID": "f0b6f1e3-421b-44da-b672-58f09e0fd277",
     "cloud_env_name": "Jorge Lim-M100028560001",
@@ -378,9 +378,9 @@
     "mwhttpsportkey": "",
     "mwportkey": "",
     "nativeContainerProperties": {
-        "isEnableJSContainer": false,
-        "isEnableJSContainerAndroid": false,
-        "isEnableJSContaineriOS": false,
+        "isEnableJSContainer": true,
+        "isEnableJSContainerAndroid": true,
+        "isEnableJSContaineriOS": true,
         "isModified": true
     },
     "objects3D": "false",

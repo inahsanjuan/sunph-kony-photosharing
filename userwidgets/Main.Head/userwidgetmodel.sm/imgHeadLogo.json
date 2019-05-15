@@ -4,12 +4,8 @@
     "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "40dp"
     },
     "_margin_": [
         0,
@@ -23,48 +19,47 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "number",
+        "value": "25"
+    },
     "_skin_": "se70da5edfe34842bb9e867b4761892f",
     "_src_": "logo.png",
     "_top_": {
-        "type": "string",
-        "value": "0dp"
+        "type": "number",
+        "value": "0"
     },
     "_width_": {
         "type": "string",
-        "value": "25%"
+        "value": "40dp"
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "75%"
-    },
     "centery": {
         "type": "string",
-        "value": "13%"
+        "value": "50%"
     },
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "FrmRegister",
-        "platform": "android",
+        "formID": "FrmFeed",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
-    "id": "imgLogo",
+    "id": "imgHeadLogo",
     "imagescalemode": 1,
     "info": null,
     "invokedProperty": "src",
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f1ed2f20df4a4715bf985b614ccd095f",
+    "kuid": "b56de6894062490bb06804bfe97a74dc",
     "name": "kony.ui.Image2",
-    "ontouchend": "AS_Image_j803f22208744eb8bc61f942030e580d",
-    "parent": "flxRegister",
-    "pf": "FrmRegister",
+    "parent": "Head",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "srcType": 1,
     "wType": "Image",
     "widgetalignment": 5,
-    "zindex": 1
+    "zindex": 2
 }
