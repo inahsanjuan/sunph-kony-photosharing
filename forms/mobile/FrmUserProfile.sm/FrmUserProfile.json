@@ -28,6 +28,7 @@
     "androidwearos": {
         "needAppMenu": false
     },
+    "bounces": false,
     "canUpdateUI": true,
     "children": [
         "flxScrUserProfile",
@@ -45,9 +46,10 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhoneXS",
+    "device": "iPhone7",
     "displayorientation": 1,
     "enabledforidletimeout": false,
+    "enablescrolling": false,
     "id": "FrmUserProfile",
     "info": null,
     "initdone": false,
@@ -105,7 +107,7 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhoneXS",
+    "shellCSS": "iOS_iPhone7",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {
