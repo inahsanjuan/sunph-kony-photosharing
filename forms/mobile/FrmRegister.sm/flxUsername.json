@@ -46,7 +46,7 @@
     "children": [
         "lblUsername",
         "txtUsername",
-        "flxUnderline1"
+        "flxUsernameLine"
     ],
     "clipbounds": true,
     "containerweight": 100,

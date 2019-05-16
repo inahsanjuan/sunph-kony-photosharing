@@ -1,0 +1,27 @@
+{
+    "AS_TextField_c8f0ef42853e4eef8cf5a31889311745": {
+        "id": "AS_TextField_c8f0ef42853e4eef8cf5a31889311745",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "FrmRegister",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a551dcdddb864b2aafb661e260d8a845"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d3989734af2f4ab6911d706fd26093ad",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var username = this.view.txtUsername.text;\n\nif (username === null) {\n  this.view.flxUsernameLine.skin = sknError;\n} else {\n  this.view.flxUsernameLine.skin = sknUnderline;\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

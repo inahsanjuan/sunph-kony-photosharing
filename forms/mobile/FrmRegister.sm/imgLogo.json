@@ -31,12 +31,12 @@
     },
     "_width_": {
         "type": "string",
-        "value": "25%"
+        "value": "15%"
     },
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "75%"
+        "value": "80%"
     },
     "centery": {
         "type": "string",

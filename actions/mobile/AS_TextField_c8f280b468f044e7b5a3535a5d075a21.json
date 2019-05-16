@@ -1,0 +1,27 @@
+{
+    "AS_TextField_c8f280b468f044e7b5a3535a5d075a21": {
+        "id": "AS_TextField_c8f280b468f044e7b5a3535a5d075a21",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "FrmRegister",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a551dcdddb864b2aafb661e260d8a845"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g4083d416f964c0baac8fef0896b1a98",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var email = this.view.txtEmail.text;\nvar regexEmail = new RegExp(/^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$/);\n\nif (email === null || !regexEmail.test(email)) {\n  this.view.flxEmailLine.skin = sknError;\n} else {\n  this.view.flxEmailLine.skin = sknUnderline;\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

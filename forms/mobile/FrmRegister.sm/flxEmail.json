@@ -46,7 +46,7 @@
     "children": [
         "lblEmail",
         "txtEmail",
-        "flxUnderline"
+        "flxEmailLine"
     ],
     "clipbounds": true,
     "containerweight": 100,
