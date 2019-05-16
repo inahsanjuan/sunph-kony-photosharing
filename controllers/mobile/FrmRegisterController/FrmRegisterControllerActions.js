@@ -2,13 +2,7 @@ define({
     /*
       This is an auto generated file and any modifications to it may result in corruption of the action sequence.
     */
-    /** ontouchend defined for imgLogo **/
-    AS_Image_j803f22208744eb8bc61f942030e580d: function AS_Image_j803f22208744eb8bc61f942030e580d(eventobject, x, y) {
-        var self = this;
-        var ntf = new kony.mvc.Navigation("FrmFeed");
-        ntf.navigate();
-    },
-    /** onClick defined for btnRegister **/
+    /** onclick defined for btnRegister **/
     AS_Button_efea5a76bff1462381003bc314e41184: function AS_Button_efea5a76bff1462381003bc314e41184(eventobject) {
         var self = this;
         var email = this.view.txtEmail.text;
@@ -114,8 +108,9 @@ define({
         this.view.txtName.text = "";
         this.view.txtPassword.text = "";
         this.view.txtCPassword.text = "";
+        new kony.mvc.Navigation("FrmLogin").navigate();
     },
-    /** onTextChange defined for txtEmail **/
+    /** ontextchange defined for txtEmail **/
     AS_TextField_c8f280b468f044e7b5a3535a5d075a21: function AS_TextField_c8f280b468f044e7b5a3535a5d075a21(eventobject, changedtext) {
         var self = this;
         var email = this.view.txtEmail.text;
@@ -126,7 +121,7 @@ define({
             this.view.flxEmailLine.skin = sknUnderline;
         }
     },
-    /** onTextChange defined for txtUsername **/
+    /** ontextchange defined for txtUsername **/
     AS_TextField_c8f0ef42853e4eef8cf5a31889311745: function AS_TextField_c8f0ef42853e4eef8cf5a31889311745(eventobject, changedtext) {
         var self = this;
         var username = this.view.txtUsername.text;
@@ -136,7 +131,7 @@ define({
             this.view.flxUsernameLine.skin = sknUnderline;
         }
     },
-    /** onTextChange defined for txtName **/
+    /** ontextchange defined for txtName **/
     AS_TextField_a951c8e616504589b6c9d1a844798140: function AS_TextField_a951c8e616504589b6c9d1a844798140(eventobject, changedtext) {
         var self = this;
         var fullName = this.view.txtName.text;
@@ -146,7 +141,7 @@ define({
             this.view.flxNameLine.skin = sknUnderline;
         }
     },
-    /** onTextChange defined for txtPassword **/
+    /** ontextchange defined for txtPassword **/
     AS_TextField_j093f47e82b941d395a3305c998fdc80: function AS_TextField_j093f47e82b941d395a3305c998fdc80(eventobject, changedtext) {
         var self = this;
         var password = this.view.txtPassword.text;
@@ -157,7 +152,7 @@ define({
             this.view.flxPasswordLine.skin = sknUnderline;
         }
     },
-    /** onTextChange defined for txtCPassword **/
+    /** ontextchange defined for txtCPassword **/
     AS_TextField_a50be3f2fce84a63bae22d63109d06d1: function AS_TextField_a50be3f2fce84a63bae22d63109d06d1(eventobject, changedtext) {
         var self = this;
         var cPassword = this.view.txtCPassword.text;
@@ -167,5 +162,11 @@ define({
         } else {
             this.view.flxCPasswordLine.skin = sknUnderline;
         }
+    },
+    /** ontouchend defined for imgLogo **/
+    AS_Image_j803f22208744eb8bc61f942030e580d: function AS_Image_j803f22208744eb8bc61f942030e580d(eventobject, x, y) {
+        var self = this;
+        var ntf = new kony.mvc.Navigation("FrmFeed");
+        ntf.navigate();
     }
 });
