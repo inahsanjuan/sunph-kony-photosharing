@@ -1,0 +1,37 @@
+{
+    "AS_Label_e8f29e6441a743b6968bb6dc96b8fad5": {
+        "id": "AS_Label_e8f29e6441a743b6968bb6dc96b8fad5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "FrmLogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "fd3ef1955e924821889149b8091f9a1d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___fe648452106746e698a140426f098a38",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "FrmRegister",
+            "formKUID": "a551dcdddb864b2aafb661e260d8a845",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n\"_meta_\" : {\n\t\"eventName\" : \"onTouchEnd\",\n\t\"widgetId\" : \"lblSignup\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}
