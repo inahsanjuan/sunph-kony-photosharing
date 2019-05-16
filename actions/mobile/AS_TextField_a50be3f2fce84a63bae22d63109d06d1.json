@@ -1,0 +1,27 @@
+{
+    "AS_TextField_a50be3f2fce84a63bae22d63109d06d1": {
+        "id": "AS_TextField_a50be3f2fce84a63bae22d63109d06d1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "FrmRegister",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a551dcdddb864b2aafb661e260d8a845"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i671ab40da074a07943e29af865d1be5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var cPassword = this.view.txtCPassword.text;\nvar password = this.view.txtPassword.text;\n\nif(cPassword === null || cPassword != password) {\n  this.view.flxCPasswordLine.skin = sknError;\n} else {\n  this.view.flxCPasswordLine.skin = sknUnderline;\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

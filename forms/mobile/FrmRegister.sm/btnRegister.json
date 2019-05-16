@@ -51,6 +51,7 @@
     "isvisible": true,
     "kuid": "if68cb0c63514094951cef1622881db9",
     "name": "kony.ui.Button",
+    "onclick": "AS_Button_efea5a76bff1462381003bc314e41184",
     "parent": "flxRegister",
     "pf": "FrmRegister",
     "retaincontentalignment": false,

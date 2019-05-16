@@ -1,0 +1,24 @@
+{
+    "AS_Button_efea5a76bff1462381003bc314e41184": {
+        "id": "AS_Button_efea5a76bff1462381003bc314e41184",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FrmRegister",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a551dcdddb864b2aafb661e260d8a845"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jed9c941e54e4fb9a1e95ea30271ef88",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var email     = this.view.txtEmail.text;\nvar username  = this.view.txtUsername.text;\nvar fullName  = this.view.txtName.text;\nvar password  = this.view.txtPassword.text;\nvar cPassword = this.view.txtCPassword.text;\n\nif (email === null) {\n  new kony.ui.Toast({\n    text: \"Email should not be empty.\",\n    duration: constants.TOAST_LENGTH_SHORT\n  }).show();\n  return;\n}\n\nif (username === null) {\n  new kony.ui.Toast({\n    text: \"Username should not be empty.\",\n    duration: constants.TOAST_LENGTH_SHORT\n  }).show();\n  return;\n}\n\nif (fullName === null) {\n  new kony.ui.Toast({\n    text: \"Full Name should not be empty.\",\n    duration: constants.TOAST_LENGTH_SHORT\n  }).show();\n  return;\n}\nif (password === null) {\n  new kony.ui.Toast({\n    text: \"Password should not be empty.\",\n    duration: constants.TOAST_LENGTH_SHORT\n  }).show();\n  return;\n}\n\nif (cPassword === null) {\n  new kony.ui.Toast({\n    text: \"Confirm Password should not be empty.\",\n    duration: constants.TOAST_LENGTH_SHORT\n  }).show();\n  return;\n}\n\nemail = email.trim();\nusername = username.trim();\nfullName = fullName.trim();\n\nvar regexPassword = new RegExp(/^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/);\nvar regexEmail = new RegExp(/^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$/);\n\n//-- Validations\nif (!regexEmail.test(email)) {\n  new kony.ui.Toast({\n    text: \"Email is invalid.\",\n    duration: constants.TOAST_LENGTH_SHORT\n  }).show();\n  return;\n}\n\nif (!regexPassword.test(password)) {\n  new kony.ui.Toast({\n    text: \"Password is invalid.\",\n    duration: constants.TOAST_LENGTH_SHORT\n  }).show();\n  return;\n}\n\nif (password != cPassword) {\n  new kony.ui.Toast({\n    text: \"Password confirmation does not match.\",\n    duration: constants.TOAST_LENGTH_SHORT\n  }).show();\n  return;\n}\n\n//-- Create User\nuser = new User(email, username, fullName, password);\n\n//-- Add to local database\nvar users = kony.store.getItem(\"Users\");\nif (users === null) {\n  users = [];\n}\n\n// Check if email exists in users\n//--prompt error\nfor (i = 0; i < users.length; i++) {\n  if (users[i].email == user.email) {\n    new kony.ui.Toast({\n      text: \"Email already exists.\",\n      duration: constants.TOAST_LENGTH_SHORT\n    }).show();\n    return;\n  }\n\n  if (users[i].username == user.username) {\n    new kony.ui.Toast({\n      text: \"Username is already taken.\",\n      duration: constants.TOAST_LENGTH_SHORT\n    }).show();\n    return;\n  }\n}\n\nusers.push(user);\nkony.store.setItem(\"Users\", users);\n\nnew kony.ui.Toast({\n  text: \"Registration Complete.\" + users.length,\n  duration: constants.TOAST_LENGTH_SHORT\n}).show();\n\nthis.view.txtEmail.text     = \"\";\nthis.view.txtUsername.text  = \"\";\nthis.view.txtName.text      = \"\";\nthis.view.txtPassword.text  = \"\";\nthis.view.txtCPassword.text = \"\";",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

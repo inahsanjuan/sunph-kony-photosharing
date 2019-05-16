@@ -63,6 +63,7 @@
     "kuid": "e9774a1f8dbf4bd6b44b2ea557ada5d9",
     "mode": "A",
     "name": "kony.ui.TextBox2",
+    "ontextchange": "AS_TextField_a951c8e616504589b6c9d1a844798140",
     "paddinginpixel": false,
     "parent": "flxName",
     "pf": "FrmRegister",

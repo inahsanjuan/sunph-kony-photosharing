@@ -24,19 +24,19 @@
         0
     ],
     "_skin_": "se70da5edfe34842bb9e867b4761892f",
-    "_src_": "user_logo.png",
+    "_src_": "user.png",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "25%"
+        "value": "13%"
     },
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "25%"
+        "value": "20%"
     },
     "centery": {
         "type": "string",

@@ -254,7 +254,7 @@
     "camerasettings": "",
     "category": "app",
     "chat": "false",
-    "cloud_account_guid": "b3496998-9505-4785-921e-ff747ce33515",
+    "cloud_account_guid": "6e73d8b4-4c5e-4db4-aa39-120176c2f3ec",
     "cloud_account_id": "100028560",
     "cloud_env_GUID": "f0b6f1e3-421b-44da-b672-58f09e0fd277",
     "cloud_env_name": "Jorge Lim-M100028560001",
@@ -309,6 +309,7 @@
     "exceptionalert": "true",
     "extendBottom": "false",
     "extendTop": "false",
+    "fabric_runtime_app_version": "1.0",
     "fbxfolderpathkey": "",
     "fgcolorkey": "255,255,255",
     "generateJavaCodeForForms": "false",
@@ -363,6 +364,14 @@
     "keyAliasandwear": "",
     "keyStoreFilePath": "",
     "keyStoreFilePathandwear": "",
+    "kfAppInfo": {
+        "6e73d8b4-4c5e-4db4-aa39-120176c2f3ec": {
+            "appName": "PhotoShare",
+            "baseId": "aa726d9e-e6d6-41ae-bd22-c013208b2775",
+            "id": "aa726d9e-e6d6-41ae-bd22-c013208b2775",
+            "version": "1.0"
+        }
+    },
     "konyVizVersion": "8.4.12",
     "lastmodifiedtime": "1557812783117",
     "location": "false",

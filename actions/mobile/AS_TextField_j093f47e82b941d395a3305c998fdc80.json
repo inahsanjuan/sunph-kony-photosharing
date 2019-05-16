@@ -1,0 +1,27 @@
+{
+    "AS_TextField_j093f47e82b941d395a3305c998fdc80": {
+        "id": "AS_TextField_j093f47e82b941d395a3305c998fdc80",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "FrmRegister",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a551dcdddb864b2aafb661e260d8a845"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f7f6e998113e4ff2a15bc12b20d8e4bb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var password = this.view.txtPassword.text;\nvar regexPassword = new RegExp(/^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/);\n\nif (password === null || !regexPassword.test(password)) {\n  this.view.flxPasswordLine.skin = sknError;\n} else {\n  this.view.flxPasswordLine.skin = sknUnderline;\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
