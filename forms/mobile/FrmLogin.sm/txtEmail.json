@@ -51,6 +51,7 @@
     "kuid": "da94e1850c794dccb2c98ab926d4df8a",
     "mode": "A",
     "name": "kony.ui.TextBox2",
+    "ontextchange": "AS_TextField_dd1c2a209d604c3ead90c4cec983ca80",
     "paddinginpixel": false,
     "parent": "flxEmail",
     "pf": "FrmLogin",

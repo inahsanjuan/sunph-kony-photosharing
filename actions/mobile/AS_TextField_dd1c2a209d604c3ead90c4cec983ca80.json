@@ -1,0 +1,27 @@
+{
+    "AS_TextField_dd1c2a209d604c3ead90c4cec983ca80": {
+        "id": "AS_TextField_dd1c2a209d604c3ead90c4cec983ca80",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "FrmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fd3ef1955e924821889149b8091f9a1d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ef562e69953a4998a78bf38504ce04b1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxEmailLine.skin = sknUnderline;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -43,6 +43,7 @@
     "isvisible": true,
     "kuid": "c1fac63273b34d2790ef1d657670bcd5",
     "name": "kony.ui.Button",
+    "onclick": "AS_Button_a5af1388b03940e4a28b74a8ed7c0cd6",
     "parent": "flxLogin",
     "pf": "FrmLogin",
     "retaincontentalignment": false,
