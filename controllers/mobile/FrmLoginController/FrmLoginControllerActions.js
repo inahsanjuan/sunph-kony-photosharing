@@ -17,6 +17,8 @@ define({
         var users = kony.store.getItem("Users");
         for (i = 0; i < users.length; i++) {
             if (users[i].email == email && users[i].password == password) {
+                this.view.txtEmail.text = "";
+                this.view.txtPassword.text = "";
                 new kony.mvc.Navigation("FrmFeed").navigate();
                 new kony.ui.Toast({
                     text: "Login success.",
