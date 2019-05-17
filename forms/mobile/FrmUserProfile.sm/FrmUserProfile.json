@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
     "DNDConfig": null,
-    "_init_": "AS_Form_d24b416735f8494f9a1ac32914c607f2",
     "_margin_": [
         0,
         0,
@@ -29,17 +28,18 @@
     "androidwearos": {
         "needAppMenu": false
     },
+    "bounces": false,
     "canUpdateUI": true,
     "children": [
-        "flxScrFeed",
-        "Navigation",
-        "Head"
+        "flxScrUserProfile",
+        "Head",
+        "Navigation"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "FrmFeedController"
+            "name": "FrmUserProfileController"
         }
     },
     "currentLocale": "default",
@@ -49,7 +49,8 @@
     "device": "iPhone7",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "FrmFeed",
+    "enablescrolling": false,
+    "id": "FrmUserProfile",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -67,7 +68,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "e3b6f18320314524af333796ccea29f2",
+                "kuid": "aa5fac32aae3440ca987087b0b8c36cd",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -78,7 +79,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "dee771f249cb4829ac7c35cb265b0631",
+                        "kuid": "hd4fe57055734d16b2e89008b8e835d6",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -95,15 +96,15 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "i0489af711e54384a65946f0026faec4",
+    "kuid": "b832623de4744b6fbfddb009baa6b405",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "iphone",
-    "postshow": "AS_Form_e282d4e2f5d24611952276b6744eea30",
-    "prevDevice": "iPhoneSE",
-    "prevPlatform": "spaip",
+    "postshow": "AS_Form_fa476c76d062487f9d0dd8a362ebc1f4",
+    "prevDevice": "iPhoneXS",
+    "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
