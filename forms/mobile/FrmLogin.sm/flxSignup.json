@@ -41,7 +41,7 @@
     },
     "centery": {
         "type": "string",
-        "value": "63%"
+        "value": "78%"
     },
     "children": [
         "lblSignup"
