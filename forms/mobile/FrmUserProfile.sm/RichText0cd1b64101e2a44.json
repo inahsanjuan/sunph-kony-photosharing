@@ -4,11 +4,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "70dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "-1dp"
     },
     "_margin_": [
         0,
@@ -22,11 +22,11 @@
         0,
         0
     ],
-    "_skin_": "s4ece47a8b22477984d7f021944b3222",
-    "_text_": "Something about us, doesn’t seem right these days",
+    "_skin_": "s47ba421e5d7482196cd2de5bac0e237",
+    "_text_": "Lorem ipsum dolor sit amet.",
     "_top_": {
         "type": "string",
-        "value": "70dp"
+        "value": "72dp"
     },
     "_width_": {
         "type": "string",
@@ -36,14 +36,11 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 1,
-    "id": "RichText0he3240a315814e",
+    "id": "RichText0cd1b64101e2a44",
     "info": null,
-    "iphone": {
-        "wrapping": 2
-    },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "h850d6224bd14b528178fbd260381ce8",
+    "kuid": "h52e1d8ed794408fa7544cae637444e3",
     "linkskin": "s46138df1b2f410b981e7cc1d7422d56",
     "name": "kony.ui.RichText",
     "parent": "FlexContainer0b21366bfc35c4a",
