@@ -2,6 +2,32 @@ define({
     /*
       This is an auto generated file and any modifications to it may result in corruption of the action sequence.
     */
+    /** init defined for FrmFeed **/
+    AS_Form_d24b416735f8494f9a1ac32914c607f2: function AS_Form_d24b416735f8494f9a1ac32914c607f2(eventobject) {
+        var self = this;
+    },
+    /** postshow defined for FrmFeed **/
+    AS_Form_e282d4e2f5d24611952276b6744eea30: function AS_Form_e282d4e2f5d24611952276b6744eea30(eventobject) {
+        var self = this;
+
+        function MOVE_ACTION____c5375abaeffd4997a2125c37e9714599_Callback() {}
+        self.view.Navigation.FlexContainer0c57e2ed31f6e41.animate(
+        kony.ui.createAnimation({
+            "100": {
+                "left": "0px",
+                "stepConfig": {
+                    "timingFunction": kony.anim.EASE
+                }
+            }
+        }), {
+            "delay": 0,
+            "iterationCount": 1,
+            "fillMode": kony.anim.FILL_MODE_FORWARDS,
+            "duration": 0.25
+        }, {
+            "animationEnd": MOVE_ACTION____c5375abaeffd4997a2125c37e9714599_Callback
+        });
+    },
     /** onclick defined for btnRegister **/
     AS_Button_efea5a76bff1462381003bc314e41184: function AS_Button_efea5a76bff1462381003bc314e41184(eventobject) {
         var self = this;
@@ -147,9 +173,9 @@ define({
         var password = this.view.txtOldPassword.text;
         var regexPassword = new RegExp(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/);
         if (password === null || !regexPassword.test(password)) {
-            this.view.flxOldPasswordLine.skin = sknError;
+            this.view.flxPasswordLine.skin = sknError;
         } else {
-            this.view.flxOldPasswordLine.skin = sknUnderline;
+            this.view.flxPasswordLine.skin = sknUnderline;
         }
     },
     /** ontextchange defined for txtCPassword **/
@@ -162,11 +188,5 @@ define({
         } else {
             this.view.flxCPasswordLine.skin = sknUnderline;
         }
-    },
-    /** ontouchend defined for imgLogo **/
-    AS_Image_j803f22208744eb8bc61f942030e580d: function AS_Image_j803f22208744eb8bc61f942030e580d(eventobject, x, y) {
-        var self = this;
-        var ntf = new kony.mvc.Navigation("FrmFeed");
-        ntf.navigate();
     }
 });

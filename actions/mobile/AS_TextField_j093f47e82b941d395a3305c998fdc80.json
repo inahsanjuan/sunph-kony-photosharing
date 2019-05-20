@@ -19,7 +19,7 @@
         "actions": [{
             "id": "ADD_SNIPPET__f7f6e998113e4ff2a15bc12b20d8e4bb",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "var password = this.view.txtPassword.text;\nvar regexPassword = new RegExp(/^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/);\n\nif (password === null || !regexPassword.test(password)) {\n  this.view.flxPasswordLine.skin = sknError;\n} else {\n  this.view.flxPasswordLine.skin = sknUnderline;\n}",
+            "codeSnippet": "var password = this.view.txtOldPassword.text;\nvar regexPassword = new RegExp(/^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/);\n\nif (password === null || !regexPassword.test(password)) {\n  this.view.flxOldPasswordLine.skin = sknError;\n} else {\n  this.view.flxOldPasswordLine.skin = sknUnderline;\n}",
             "parentId": null,
             "callbackType": null
         }]
