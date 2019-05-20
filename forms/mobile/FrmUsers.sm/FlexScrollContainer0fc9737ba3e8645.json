@@ -1,13 +1,17 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "50"
+    },
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "627dp"
     },
     "_left_": {
         "type": "string",
-        "value": "20%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -23,40 +27,48 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s239a408f7754feea120efef2e690676",
+    "_skin_": "s5e57a115ae34e98bccc3d2f741d5cae",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "50dp"
     },
     "_width_": {
         "type": "string",
-        "value": "20%"
+        "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "Search"
+        "Segment0j0278655db894a"
     ],
     "clipbounds": true,
     "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
     "enablescrolling": true,
-    "id": "flxExplore",
+    "horizontalscrollindicator": true,
+    "id": "FlexScrollContainer0fc9737ba3e8645",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ccd2df1152204c10b01c59c7ca6f077d",
+    "kuid": "f1bb97fcf1ed4e2db84461d9a46c5491",
     "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
-    "onclick": "AS_FlexContainer_g0b7269444f7410e8c0af8a7320c7dc4",
-    "parent": "Navigation",
-    "pf": "userwidgetmodel",
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "FrmUsers",
+    "pf": "FrmUsers",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
+    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "wType": "FlexContainer",
+    "track": false,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
     "widgetalignment": 1,
     "zindex": 1
 }
