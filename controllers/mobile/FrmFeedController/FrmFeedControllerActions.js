@@ -6,7 +6,7 @@ define({
     AS_Form_d24b416735f8494f9a1ac32914c607f2: function AS_Form_d24b416735f8494f9a1ac32914c607f2(eventobject) {
         var self = this;
     },
-    /** postShow defined for FrmFeed **/
+    /** postshow defined for FrmFeed **/
     AS_Form_e282d4e2f5d24611952276b6744eea30: function AS_Form_e282d4e2f5d24611952276b6744eea30(eventobject) {
         var self = this;
 

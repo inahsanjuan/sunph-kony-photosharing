@@ -35,8 +35,8 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblHeadTitle",
-        "CopylblHeadTitle0i272dd0c3ab943"
+        "lblUserName",
+        "lblName"
     ],
     "clipbounds": true,
     "containerId": true,

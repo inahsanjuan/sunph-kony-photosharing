@@ -18,12 +18,12 @@
     ],
     "_padding_": [
         0,
+        6,
         0,
-        0,
-        6
+        0
     ],
-    "_skin_": "se6dc9a69a6f43ff9102a517c5bef7c7",
-    "_text_": "username",
+    "_skin_": "sec64b3ada36434bb708a2d9e0e5a622",
+    "_text_": "Fname Snam",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -43,7 +43,7 @@
     "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblHeadTitle",
+    "id": "lblName",
     "info": null,
     "ipad": {
         "psp": {
@@ -57,7 +57,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "de4915a607724d84ac662d8a28ba56dc",
+    "kuid": "d026ba059b6842ef984fc81a54751152",
     "name": "kony.ui.Label",
     "paddinginpixel": false,
     "parent": "Flex0dfced8ffd2774d",
