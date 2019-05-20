@@ -34,12 +34,12 @@
         "value": "preferred"
     },
     "canUpdateUI": true,
+    "containerId": true,
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "FrmUserProfile",
         "platform": "android",
-        "templateType": "forms",
+        "templateType": "segments",
         "topLevelBox": null
     },
     "id": "Image0g4888df0d9b441",
@@ -47,7 +47,7 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e85e483c2cc44e2c8c12f6feded7eb3f",
+    "kuid": "ge87ad93e11844598d8a36c660da5770",
     "minheight": {
         "type": "string",
         "value": "100%"
@@ -58,7 +58,7 @@
     },
     "name": "kony.ui.Image2",
     "parent": "flxAvatar",
-    "pf": "FrmUserProfile",
+    "pf": "segProfilePosts",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "srcType": 1,

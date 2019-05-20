@@ -256,7 +256,7 @@
     "chat": "false",
     "cloud_account_guid": "b3496998-9505-4785-921e-ff747ce33515",
     "cloud_account_id": "100028560",
-    "cloud_env_GUID": "f0b6f1e3-421b-44da-b672-58f09e0fd277",
+    "cloud_env_GUID": "4f94bd61-5e99-428d-8361-c3247179cb1f",
     "cloud_env_name": "Jorge Lim-M100028560001",
     "cloud_url": "https://m100028560001.konycloud.com",
     "codeGeneration": "false",
@@ -369,6 +369,12 @@
             "appName": "PhotoShare",
             "baseId": "aa726d9e-e6d6-41ae-bd22-c013208b2775",
             "id": "aa726d9e-e6d6-41ae-bd22-c013208b2775",
+            "version": "1.0"
+        },
+        "b3496998-9505-4785-921e-ff747ce33515": {
+            "appName": "PhotoShare",
+            "baseId": "7905aa98-00b5-4427-8035-a61b57c77f7e",
+            "id": "7905aa98-00b5-4427-8035-a61b57c77f7e",
             "version": "1.0"
         }
     },

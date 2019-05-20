@@ -5,7 +5,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "250dp"
     },
     "_left_": {
         "type": "string",
@@ -30,35 +30,27 @@
         "value": "0dp"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "100%"
     },
     "canUpdateUI": true,
+    "containerId": true,
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "FrmUserProfile",
         "platform": "android",
-        "templateType": "forms",
+        "templateType": "segments",
         "topLevelBox": null
     },
-    "id": "Image0g4888df0d9b441",
-    "imagescalemode": 1,
+    "id": "Image0bc6666a1a01542",
+    "imagescalemode": 0,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e85e483c2cc44e2c8c12f6feded7eb3f",
-    "minheight": {
-        "type": "string",
-        "value": "100%"
-    },
-    "minwidth": {
-        "type": "string",
-        "value": "100%"
-    },
+    "kuid": "ecef5fc548bd428eb2255f65b2ccd945",
     "name": "kony.ui.Image2",
-    "parent": "flxAvatar",
-    "pf": "FrmUserProfile",
+    "parent": "flxPostContainer",
+    "pf": "segProfilePosts",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "srcType": 1,

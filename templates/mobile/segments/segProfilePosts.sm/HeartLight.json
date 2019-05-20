@@ -3,18 +3,14 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "28dp"
     },
     "_margin_": [
-        1,
-        1,
-        1,
-        1
+        0,
+        0,
+        0,
+        0
     ],
     "_padding_": [
         0,
@@ -22,15 +18,19 @@
         0,
         0
     ],
-    "_skin_": "sa5b0d48b6154247922346761937006a",
-    "_text_": "posts",
-    "_top_": {
+    "_right_": {
         "type": "string",
         "value": "25dp"
     },
+    "_skin_": "sfa5a559ca8e419194eb21a5f757079f",
+    "_text_": "",
+    "_top_": {
+        "type": "number",
+        "value": "7"
+    },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "28dp"
     },
     "_wrapping_": 2,
     "android": {
@@ -40,9 +40,10 @@
         }
     },
     "canUpdateUI": true,
+    "containerId": true,
     "containerweight": 100,
-    "contentalignment": 5,
-    "id": "Label0i257b9663f6244",
+    "contentalignment": 6,
+    "id": "HeartLight",
     "info": null,
     "ipad": {
         "psp": {
@@ -54,14 +55,14 @@
             "wrapping": 2
         }
     },
-    "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "g0885881c3bc425a80921b990078c2bc",
+    "kuid": "b34f546b525e428d859eedfbf2a7b416",
+    "masterType": 1,
     "name": "kony.ui.Label",
-    "parent": "flxTab1",
-    "pf": "FrmUserProfile",
-    "retaincontentalignment": false,
-    "retainflexpositionproperties": false,
+    "paddingLocked": false,
+    "paddinginpixel": false,
+    "parent": "FlexGroup0j4e3fb143d3c40",
+    "pf": "segProfilePosts",
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",
