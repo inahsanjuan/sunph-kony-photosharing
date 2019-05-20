@@ -68,7 +68,7 @@
             "__events__": {},
             "__info__": {
                 "isRoot": true,
-                "kuid": "cfca07087ad14c758dd05fe9994db4b1",
+                "kuid": "ff7a72c620644a629330ccffe3c95414",
                 "srcKUID": "acd16929693144dda28de4266b9fe4b1",
                 "wType": "FlexContainer"
             }
@@ -76,46 +76,27 @@
         "flxHeadLine": {
             "__events__": {},
             "__info__": {
-                "kuid": "hd91a9f4d7b44d1587f44a878516ead0",
+                "kuid": "a1fb684c4ffa4ce789963e458e737102",
                 "srcKUID": "g73f420ea530422aa1161875f8be283a",
                 "wType": "FlexContainer"
-            },
-            "bottom": {
-                "Default": {
-                    "type": "number",
-                    "value": "1"
-                }
             }
         },
         "imgHeadLogo": {
             "__events__": {},
             "__info__": {
-                "kuid": "ece5208360104713baa03f2b7cef269f",
+                "kuid": "a9a9310921de472c9a6c7dfe8559f34a",
                 "srcKUID": "b56de6894062490bb06804bfe97a74dc",
                 "wType": "Image"
-            },
-            "src": "logo.png"
+            }
         },
         "lblHeadTitle": {
             "__events__": {},
             "__info__": {
-                "kuid": "c362571256dc4d3bbf4fff566eb3baa5",
+                "kuid": "i10df761a01d40a5b187d8ed2045ad67",
                 "srcKUID": "i4ff46adf19b4338a95493eeca6077d5",
                 "wType": "Label"
             },
-            "left": {
-                "Default": {
-                    "type": "string",
-                    "value": "25dp"
-                }
-            },
-            "text": "johndoe123",
-            "top": {
-                "Default": {
-                    "type": "string",
-                    "value": "0dp"
-                }
-            }
+            "text": "Members"
         }
     },
     "enablescrolling": true,
@@ -124,12 +105,12 @@
     "iscustomlayout": false,
     "isdatareferenced": false,
     "isvisible": true,
-    "kuid": "cfca07087ad14c758dd05fe9994db4b1",
+    "kuid": "ff7a72c620644a629330ccffe3c95414",
     "layouttype": 2,
     "masterType": 0,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "FrmUserProfile",
-    "pf": "FrmUserProfile",
+    "parent": "FrmUsers",
+    "pf": "FrmUsers",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

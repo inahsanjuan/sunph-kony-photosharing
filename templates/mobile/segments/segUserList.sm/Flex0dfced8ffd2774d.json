@@ -1,13 +1,12 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "80dp"
     },
     "_left_": {
         "type": "string",
-        "value": "20%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -30,33 +29,40 @@
     },
     "_width_": {
         "type": "string",
-        "value": "20%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "Search"
+        "lblHeadTitle",
+        "CopylblHeadTitle0i272dd0c3ab943"
     ],
     "clipbounds": true,
+    "containerId": true,
     "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "Flex0dfced8ffd2774dController"
+        }
+    },
     "enablescrolling": true,
-    "id": "flxExplore",
+    "id": "Flex0dfced8ffd2774d",
     "info": null,
+    "isTemplate": true,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ccd2df1152204c10b01c59c7ca6f077d",
+    "kuid": "dccf86a1ba0c4f6b979dbf19ceea0a73",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "onclick": "AS_FlexContainer_g0b7269444f7410e8c0af8a7320c7dc4",
-    "parent": "Navigation",
-    "pf": "userwidgetmodel",
+    "parent": "segUserList",
+    "pf": "segUserList",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }
