@@ -1,0 +1,215 @@
+{
+    "AS_Form_aae38e4bb4d540b3b874b4440b36318a": {
+        "id": "AS_Form_aae38e4bb4d540b3b874b4440b36318a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FrmUsers",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b5e3040683864a958f7ea14a57bd4af2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "LOADING_INDICATOR__d1c3f9c1ce914948b65f4fc4cf11ea2e",
+            "selectedOption": "show",
+            "disabled": null,
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_OBJECT_SERVICE__f786c086270f4ec4b4f1a9a0d6074ab0",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "FirebaseService",
+                "type": "objectsvcs",
+                "objectname": "members",
+                "serviceid": "c0afbf00-8c05-45b5-917b-f63f3c516652",
+                "methodname": "get"
+            },
+            "enableMappingEditor": true
+        }, {
+            "id": "LOADING_INDICATOR__f62d61016ccd497490bf16d12950480c",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_OBJECT_SERVICE__f786c086270f4ec4b4f1a9a0d6074ab0",
+            "disabled": null,
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Callback",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "_IF_CONDITION_fcbdc7f69cb440f4816bc986e7290bb8",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValue": "members.opstatus",
+                "rightValue": "0",
+                "leftValueType": "value",
+                "rightValueType": "value",
+                "operator": "==="
+            }],
+            "parentId": "INVOKE_OBJECT_SERVICE__f786c086270f4ec4b4f1a9a0d6074ab0",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "_ELSE_CONDITION_c1ffaca6a76342a88983a1b78c7d73a4",
+            "type": "ELSE_CONDITION",
+            "conditions": [],
+            "parentId": "INVOKE_OBJECT_SERVICE__f786c086270f4ec4b4f1a9a0d6074ab0",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "ADD_SNIPPET__c09afe9d67cc4fc0a4bc995ab37021f0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var toast = new kony.ui.Toast({\n  text: \"members: \" + members.inspect ,\n  duration: constants.TOAST_LENGTH_SHORT\n});\n\ntoast.show();",
+            "parentId": "INVOKE_OBJECT_SERVICE__f786c086270f4ec4b4f1a9a0d6074ab0",
+            "callbackType": "Callback",
+            "disabled": true
+        }, {
+            "id": "SHOW_ALERT__g9305c4cca6a4e00880e0aa384f28553",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "Data fetch failed! Please try again later.",
+            "messageType": "constant",
+            "alertHandler": null,
+            "parentId": "_ELSE_CONDITION_c1ffaca6a76342a88983a1b78c7d73a4",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": false
+        }, {
+            "id": "ADD_MAPPING__a27d857748b44afc9e7c0fbbd73a9c4e",
+            "type": "ADD_MAPPING",
+            "mappings": {
+                "ME_Mapping_aeb90b5918e84f3ba7a47f4c6a78d911": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_aeb90b5918e84f3ba7a47f4c6a78d911",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "records",
+                        "dataType": "collection",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "FirebaseService",
+                            "type": "objectsvcs",
+                            "objectname": "members",
+                            "serviceid": "c0afbf00-8c05-45b5-917b-f63f3c516652",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "masterdata",
+                        "widgetId": "Segment0j0278655db894a",
+                        "widgetPath": "this.view.Segment0j0278655db894a",
+                        "widgetType": "Segment",
+                        "dataType": "collection",
+                        "itemId": "FrmUsers",
+                        "widgetKUID": "e1ca7aaf1a5d463d8c8f554e615ee0f6",
+                        "itemKUID": "b5e3040683864a958f7ea14a57bd4af2",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_f11de5374fbe44d59ed361d84671791d": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_f11de5374fbe44d59ed361d84671791d",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "username",
+                        "dataType": "string",
+                        "collectionId": "records",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "FirebaseService",
+                            "type": "objectsvcs",
+                            "objectname": "members",
+                            "serviceid": "c0afbf00-8c05-45b5-917b-f63f3c516652",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblUserName",
+                        "widgetPath": "this.view.lblUserName",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "FrmUsers",
+                        "parentMappingId": "ME_Mapping_aeb90b5918e84f3ba7a47f4c6a78d911",
+                        "segmentId": "Segment0j0278655db894a",
+                        "segmentKUID": "e1ca7aaf1a5d463d8c8f554e615ee0f6",
+                        "widgetKUID": "de4915a607724d84ac662d8a28ba56dc",
+                        "itemKUID": "b5e3040683864a958f7ea14a57bd4af2",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_d8666297d478489b835592876abf3d4a": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_d8666297d478489b835592876abf3d4a",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "name",
+                        "dataType": "string",
+                        "collectionId": "records",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "FirebaseService",
+                            "type": "objectsvcs",
+                            "objectname": "members",
+                            "serviceid": "c0afbf00-8c05-45b5-917b-f63f3c516652",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblName",
+                        "widgetPath": "this.view.lblName",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "FrmUsers",
+                        "parentMappingId": "ME_Mapping_aeb90b5918e84f3ba7a47f4c6a78d911",
+                        "segmentId": "Segment0j0278655db894a",
+                        "segmentKUID": "e1ca7aaf1a5d463d8c8f554e615ee0f6",
+                        "widgetKUID": "d026ba059b6842ef984fc81a54751152",
+                        "itemKUID": "b5e3040683864a958f7ea14a57bd4af2",
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_aeb90b5918e84f3ba7a47f4c6a78d911", "ME_Mapping_f11de5374fbe44d59ed361d84671791d", "ME_Mapping_d8666297d478489b835592876abf3d4a"],
+            "parentId": "_IF_CONDITION_fcbdc7f69cb440f4816bc986e7290bb8",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

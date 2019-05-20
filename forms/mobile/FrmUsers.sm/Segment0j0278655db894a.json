@@ -4,103 +4,13 @@
     "__parentReadjusting__": false,
     "_data_": [
         {
-            "CopylblHeadTitle0i272dd0c3ab943": {
+            "lblName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "John Doe"
+                "text": "name"
             },
-            "lblHeadTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "johndoe123"
-            }
-        },
-        {
-            "CopylblHeadTitle0i272dd0c3ab943": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Marry Lamb"
-            },
-            "lblHeadTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "maryhadalillamb"
-            }
-        },
-        {
-            "CopylblHeadTitle0i272dd0c3ab943": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Jose Rizal"
-            },
-            "lblHeadTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "josejosephine"
-            }
-        },
-        {
-            "CopylblHeadTitle0i272dd0c3ab943": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Mike Wizowski"
-            },
-            "lblHeadTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "mikewiziwski"
-            }
-        },
-        {
-            "CopylblHeadTitle0i272dd0c3ab943": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Rowan Atksinson"
-            },
-            "lblHeadTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "mrbean"
-            }
-        },
-        {
-            "CopylblHeadTitle0i272dd0c3ab943": {
+            "lblUserName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "username"
-            },
-            "lblHeadTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Title"
-            }
-        },
-        {
-            "CopylblHeadTitle0i272dd0c3ab943": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "username"
-            },
-            "lblHeadTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Title"
-            }
-        },
-        {
-            "CopylblHeadTitle0i272dd0c3ab943": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "username"
-            },
-            "lblHeadTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Title"
-            }
-        },
-        {
-            "CopylblHeadTitle0i272dd0c3ab943": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "username"
-            },
-            "lblHeadTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Title"
-            }
-        },
-        {
-            "CopylblHeadTitle0i272dd0c3ab943": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "username"
-            },
-            "lblHeadTitle": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Title"
             }
         }
     ],
@@ -137,7 +47,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "containerweight": 100,
-    "counter": "09",
+    "counter": "00",
     "focusedindex": null,
     "focuseditem": null,
     "groupcells": false,
@@ -171,7 +81,7 @@
     "retainflexpositionproperties": false,
     "retainselection": false,
     "rowTemplateId": "a75c66ee3f0e488c924ae187dcd97195",
-    "rowcounter": 9,
+    "rowcounter": 0,
     "rowfocusskin": "sc7869d598f04f61a1fa3e9309f148fb",
     "rowskin": "s6b88428b0a14cd8a499ea413e799a50",
     "rowtemplate": "Flex0dfced8ffd2774d",
@@ -183,7 +93,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": null,
+    "selectedsectionindex": 0,
     "selectionbehavior": "default",
     "separatorcolor": "aaaaaa00",
     "separatorrequired": true,
@@ -194,9 +104,9 @@
     "wType": "Segment",
     "widgetalignment": 5,
     "widgetdatamap": {
-        "CopylblHeadTitle0i272dd0c3ab943": "CopylblHeadTitle0i272dd0c3ab943",
         "Flex0dfced8ffd2774d": "Flex0dfced8ffd2774d",
-        "lblHeadTitle": "lblHeadTitle"
+        "lblName": "lblName",
+        "lblUserName": "lblUserName"
     },
     "zindex": 1
 }

@@ -1,0 +1,208 @@
+{
+    "AS_Form_ec9f4f2ae4f94f1e8ff1fdc0ed3cf7b1": {
+        "id": "AS_Form_ec9f4f2ae4f94f1e8ff1fdc0ed3cf7b1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FrmUsers",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b5e3040683864a958f7ea14a57bd4af2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "LOADING_INDICATOR__g87dddf62c8f46a58e7b9d04e59ffa83",
+            "selectedOption": "show",
+            "disabled": null,
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_OBJECT_SERVICE__ded981285f3d497c9558b8ecec895eec",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "members",
+                "type": "objectsvcs",
+                "objectname": "getMembers",
+                "serviceid": "342db02e-aade-46d8-aeda-d4e86a7f1925",
+                "methodname": "get"
+            },
+            "enableMappingEditor": true
+        }, {
+            "id": "LOADING_INDICATOR__he248ee824ea450c969e1b3a5834e33b",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_OBJECT_SERVICE__ded981285f3d497c9558b8ecec895eec",
+            "disabled": null,
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Callback",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "_IF_CONDITION_b0dc80f9c8bf4896add5bbab909e0522",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValue": "getMembers.opstatus",
+                "rightValue": "0",
+                "leftValueType": "value",
+                "rightValueType": "value",
+                "operator": "==="
+            }],
+            "parentId": "INVOKE_OBJECT_SERVICE__ded981285f3d497c9558b8ecec895eec",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "_ELSE_CONDITION_j3198e0554d047b0af4cd6103f36d21f",
+            "type": "ELSE_CONDITION",
+            "conditions": [],
+            "parentId": "INVOKE_OBJECT_SERVICE__ded981285f3d497c9558b8ecec895eec",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "SHOW_ALERT__b56d91a6ba62474fa16641b3e7d4ee47",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "Data fetch failed! Please try again later.",
+            "messageType": "constant",
+            "alertHandler": null,
+            "parentId": "_ELSE_CONDITION_j3198e0554d047b0af4cd6103f36d21f",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "ADD_MAPPING__d332c5539907492dbc8b77c57830e609",
+            "type": "ADD_MAPPING",
+            "mappings": {
+                "ME_Mapping_ic1f5e6d465449a4b2e7e746d77c5256": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_ic1f5e6d465449a4b2e7e746d77c5256",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "records",
+                        "dataType": "collection",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "members",
+                            "type": "objectsvcs",
+                            "objectname": "getMembers",
+                            "serviceid": "342db02e-aade-46d8-aeda-d4e86a7f1925",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "masterdata",
+                        "widgetId": "Segment0j0278655db894a",
+                        "widgetPath": "this.view.Segment0j0278655db894a",
+                        "widgetType": "Segment",
+                        "dataType": "collection",
+                        "itemId": "FrmUsers",
+                        "widgetKUID": "e1ca7aaf1a5d463d8c8f554e615ee0f6",
+                        "itemKUID": "b5e3040683864a958f7ea14a57bd4af2",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_f27b1a2fdd3f4d10a83fd20563c5391b": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_f27b1a2fdd3f4d10a83fd20563c5391b",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "username",
+                        "dataType": "string",
+                        "collectionId": "records",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "members",
+                            "type": "objectsvcs",
+                            "objectname": "getMembers",
+                            "serviceid": "342db02e-aade-46d8-aeda-d4e86a7f1925",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblUserName",
+                        "widgetPath": "this.view.lblUserName",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "FrmUsers",
+                        "parentMappingId": "ME_Mapping_ic1f5e6d465449a4b2e7e746d77c5256",
+                        "segmentId": "Segment0j0278655db894a",
+                        "segmentKUID": "e1ca7aaf1a5d463d8c8f554e615ee0f6",
+                        "widgetKUID": "de4915a607724d84ac662d8a28ba56dc",
+                        "itemKUID": "b5e3040683864a958f7ea14a57bd4af2",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_ef76ee27069d496db3261e6625f08c7f": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_ef76ee27069d496db3261e6625f08c7f",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "name",
+                        "dataType": "string",
+                        "collectionId": "records",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "members",
+                            "type": "objectsvcs",
+                            "objectname": "getMembers",
+                            "serviceid": "342db02e-aade-46d8-aeda-d4e86a7f1925",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblName",
+                        "widgetPath": "this.view.lblName",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "FrmUsers",
+                        "parentMappingId": "ME_Mapping_ic1f5e6d465449a4b2e7e746d77c5256",
+                        "segmentId": "Segment0j0278655db894a",
+                        "segmentKUID": "e1ca7aaf1a5d463d8c8f554e615ee0f6",
+                        "widgetKUID": "d026ba059b6842ef984fc81a54751152",
+                        "itemKUID": "b5e3040683864a958f7ea14a57bd4af2",
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_ic1f5e6d465449a4b2e7e746d77c5256", "ME_Mapping_f27b1a2fdd3f4d10a83fd20563c5391b", "ME_Mapping_ef76ee27069d496db3261e6625f08c7f"],
+            "parentId": "_IF_CONDITION_b0dc80f9c8bf4896add5bbab909e0522",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

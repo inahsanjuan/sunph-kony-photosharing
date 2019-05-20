@@ -7,14 +7,14 @@ define({
         var self = this;
         new kony.mvc.Navigation("FrmFeed").navigate();
     },
+    /** onclick defined for flxExplore **/
+    AS_FlexContainer_g0b7269444f7410e8c0af8a7320c7dc4: function AS_FlexContainer_g0b7269444f7410e8c0af8a7320c7dc4(eventobject) {
+        var self = this;
+        new kony.mvc.Navigation("FrmUsers").navigate();
+    },
     /** onclick defined for flxProfile **/
     AS_FlexContainer_hfddf4ff2e244c739948914958d2c8b2: function AS_FlexContainer_hfddf4ff2e244c739948914958d2c8b2(eventobject) {
         var self = this;
         new kony.mvc.Navigation("FrmUserProfile").navigate();
-    },
-    /** onClick defined for flxExplore **/
-    AS_FlexContainer_g0b7269444f7410e8c0af8a7320c7dc4: function AS_FlexContainer_g0b7269444f7410e8c0af8a7320c7dc4(eventobject) {
-        var self = this;
-        new kony.mvc.Navigation("FrmUsers").navigate();
     }
 });

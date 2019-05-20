@@ -1,0 +1,227 @@
+{
+    "AS_Form_ee8c5c46833042c187ac7b87041e0f2c": {
+        "id": "AS_Form_ee8c5c46833042c187ac7b87041e0f2c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FrmUsers",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b5e3040683864a958f7ea14a57bd4af2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "LOADING_INDICATOR__j4a96b84647441889090f2eb073e4d7a",
+            "selectedOption": "show",
+            "disabled": null,
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_OBJECT_SERVICE__j5a1e681191f495db3894ff77926c87c",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "members",
+                "type": "objectsvcs",
+                "objectname": "getMembers",
+                "serviceid": "342db02e-aade-46d8-aeda-d4e86a7f1925",
+                "methodname": "get"
+            },
+            "enableMappingEditor": true
+        }, {
+            "id": "LOADING_INDICATOR__c0d1b8bed0fa407a8b259975ef1ec093",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_OBJECT_SERVICE__j5a1e681191f495db3894ff77926c87c",
+            "disabled": null,
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Callback",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "_IF_CONDITION_eb7ea6fe201a4d5dbbd6795fceb67c97",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValue": "getMembers.opstatus",
+                "rightValue": "0",
+                "leftValueType": "value",
+                "rightValueType": "value",
+                "operator": "==="
+            }],
+            "parentId": "INVOKE_OBJECT_SERVICE__j5a1e681191f495db3894ff77926c87c",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "_ELSE_CONDITION_fb09409557354bf6862db1cca76f9816",
+            "type": "ELSE_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "",
+                "operator": "===",
+                "rightValueType": "widgetprop",
+                "rightValue": ""
+            }],
+            "parentId": "INVOKE_OBJECT_SERVICE__j5a1e681191f495db3894ff77926c87c",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "SHOW_ALERT__a5f63768ebb845b9a9333af5f2baee9f",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "Data fetch failed! Please try again later.",
+            "messageType": "constant",
+            "alertHandler": null,
+            "parentId": "_ELSE_CONDITION_fb09409557354bf6862db1cca76f9816",
+            "callbackType": null,
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": true
+        }, {
+            "id": "ADD_MAPPING__a899d552fef74d39b5cd930ea00d6806",
+            "type": "ADD_MAPPING",
+            "mappings": {
+                "ME_Mapping_fc37c12dbfa04b01b2f8bde820738be7": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_fc37c12dbfa04b01b2f8bde820738be7",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "records",
+                        "dataType": "collection",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "members",
+                            "type": "objectsvcs",
+                            "objectname": "getMembers",
+                            "serviceid": "342db02e-aade-46d8-aeda-d4e86a7f1925",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "masterdata",
+                        "widgetId": "Segment0j0278655db894a",
+                        "widgetPath": "this.view.Segment0j0278655db894a",
+                        "widgetType": "Segment",
+                        "dataType": "collection",
+                        "itemId": "FrmUsers",
+                        "widgetKUID": "e1ca7aaf1a5d463d8c8f554e615ee0f6",
+                        "itemKUID": "b5e3040683864a958f7ea14a57bd4af2",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_hf7acb49b8ec42f9883de235cfe56321": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_hf7acb49b8ec42f9883de235cfe56321",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "username",
+                        "dataType": "string",
+                        "collectionId": "records",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "members",
+                            "type": "objectsvcs",
+                            "objectname": "getMembers",
+                            "serviceid": "342db02e-aade-46d8-aeda-d4e86a7f1925",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblUserName",
+                        "widgetPath": "this.view.lblUserName",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "FrmUsers",
+                        "parentMappingId": "ME_Mapping_fc37c12dbfa04b01b2f8bde820738be7",
+                        "segmentId": "Segment0j0278655db894a",
+                        "segmentKUID": "e1ca7aaf1a5d463d8c8f554e615ee0f6",
+                        "widgetKUID": "de4915a607724d84ac662d8a28ba56dc",
+                        "itemKUID": "b5e3040683864a958f7ea14a57bd4af2",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_i1b8604d69274d94bf2fcec1ca3fbab9": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_i1b8604d69274d94bf2fcec1ca3fbab9",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "name",
+                        "dataType": "string",
+                        "collectionId": "records",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "members",
+                            "type": "objectsvcs",
+                            "objectname": "getMembers",
+                            "serviceid": "342db02e-aade-46d8-aeda-d4e86a7f1925",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblName",
+                        "widgetPath": "this.view.lblName",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "FrmUsers",
+                        "parentMappingId": "ME_Mapping_fc37c12dbfa04b01b2f8bde820738be7",
+                        "segmentId": "Segment0j0278655db894a",
+                        "segmentKUID": "e1ca7aaf1a5d463d8c8f554e615ee0f6",
+                        "widgetKUID": "d026ba059b6842ef984fc81a54751152",
+                        "itemKUID": "b5e3040683864a958f7ea14a57bd4af2",
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_fc37c12dbfa04b01b2f8bde820738be7", "ME_Mapping_hf7acb49b8ec42f9883de235cfe56321", "ME_Mapping_i1b8604d69274d94bf2fcec1ca3fbab9"],
+            "parentId": "_IF_CONDITION_eb7ea6fe201a4d5dbbd6795fceb67c97",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }, {
+            "id": "ADD_SNIPPET__a66ffd28c06c48378e216da800b60b0b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var toast = new kony.ui.Toast({\n  text: getMembers.opStatus, \n  duration: constants.TOAST_LENGTH_SHORT\n});\ntoast.show();",
+            "parentId": "_IF_CONDITION_eb7ea6fe201a4d5dbbd6795fceb67c97",
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__c194d0e7e9c44557a56ca07f531b44ce",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var toast = new kony.ui.Toast({\n  text: \"opstat: \" + getMembers.opStatus, \n  duration: constants.TOAST_LENGTH_SHORT\n});\ntoast.show();",
+            "parentId": "INVOKE_OBJECT_SERVICE__j5a1e681191f495db3894ff77926c87c",
+            "callbackType": "Callback"
+        }]
+    }
+}
