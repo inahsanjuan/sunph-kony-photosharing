@@ -2,7 +2,7 @@ define({
     /*
       This is an auto generated file and any modifications to it may result in corruption of the action sequence.
     */
-    /** postShow defined for FrmUserProfile **/
+    /** postshow defined for FrmUserProfile **/
     AS_Form_fa476c76d062487f9d0dd8a362ebc1f4: function AS_Form_fa476c76d062487f9d0dd8a362ebc1f4(eventobject) {
         var self = this;
 

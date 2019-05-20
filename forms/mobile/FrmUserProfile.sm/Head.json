@@ -79,6 +79,12 @@
                 "kuid": "hd91a9f4d7b44d1587f44a878516ead0",
                 "srcKUID": "g73f420ea530422aa1161875f8be283a",
                 "wType": "FlexContainer"
+            },
+            "bottom": {
+                "Default": {
+                    "type": "number",
+                    "value": "1"
+                }
             }
         },
         "imgHeadLogo": {
@@ -87,7 +93,8 @@
                 "kuid": "ece5208360104713baa03f2b7cef269f",
                 "srcKUID": "b56de6894062490bb06804bfe97a74dc",
                 "wType": "Image"
-            }
+            },
+            "src": "logo.png"
         },
         "lblHeadTitle": {
             "__events__": {},
