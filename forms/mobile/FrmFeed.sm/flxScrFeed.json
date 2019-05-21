@@ -1,9 +1,9 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_height_": {
+    "_bottom_": {
         "type": "string",
-        "value": "100%"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
@@ -26,7 +26,7 @@
     "_skin_": "sa46012b6b9c4e4a922060189ee788e8",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "50dp"
     },
     "_width_": {
         "type": "string",
@@ -37,7 +37,9 @@
     "allowverticalbounce": true,
     "bounces": true,
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "segProfilePosts"
+    ],
     "clipbounds": true,
     "containerweight": 100,
     "decelerat": false,
