@@ -1,13 +1,13 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_height_": {
-        "type": "string",
-        "value": "100%"
+    "_bottom_": {
+        "type": "number",
+        "value": "50"
     },
     "_left_": {
         "type": "string",
-        "value": "80%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -26,17 +26,23 @@
     "_skin_": "s239a408f7754feea120efef2e690676",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "50dp"
     },
     "_width_": {
         "type": "string",
-        "value": "20%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "Cog"
+        "btnRegister",
+        "flxEmail",
+        "flxUsername",
+        "flxName",
+        "flxPassword",
+        "flxCPassword",
+        "flxOldPassword"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -45,12 +51,11 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "h35ea793fe0b4845a0ecb13a7a460827",
+    "kuid": "de1c28ead12c46288c0f1291f378023b",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "onclick": "AS_FlexContainer_efe2bb771b9c42199554bf5ed88bd366",
-    "parent": "Navigation",
-    "pf": "userwidgetmodel",
+    "parent": "FrmSettings",
+    "pf": "FrmSettings",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

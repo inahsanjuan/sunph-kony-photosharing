@@ -1,0 +1,80 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "s7775f01a5f3457a8b3381f99ce0d441",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "75%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "enablehapticfeedback": false,
+    "focusskin": "s3fc0d136721452788489f502488433b",
+    "id": "txtEmail",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "keyboardActionLabel": 1
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardactionlabel": 1,
+    "keyboardstyle": "emailpad",
+    "keyboardtype": "A",
+    "kuid": "idf130507040429fb4b8cccf30ea9c50",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "ontextchange": "AS_TextField_c8f280b468f044e7b5a3535a5d075a21",
+    "paddinginpixel": false,
+    "parent": "flxEmail",
+    "pf": "FrmSettings",
+    "placeholderskin": "sde3ef66a08a436cbc2b1bdec636fd16",
+    "restrictcharactersset": " ",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

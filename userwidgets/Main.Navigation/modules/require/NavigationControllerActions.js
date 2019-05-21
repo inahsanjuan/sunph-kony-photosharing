@@ -16,5 +16,10 @@ define({
     AS_FlexContainer_hfddf4ff2e244c739948914958d2c8b2: function AS_FlexContainer_hfddf4ff2e244c739948914958d2c8b2(eventobject) {
         var self = this;
         new kony.mvc.Navigation("FrmUserProfile").navigate();
+    },
+    /** onclick defined for flxSettings **/
+    AS_FlexContainer_efe2bb771b9c42199554bf5ed88bd366: function AS_FlexContainer_efe2bb771b9c42199554bf5ed88bd366(eventobject) {
+        var self = this;
+        new kony.mvc.Navigation("FrmSettings").navigate();
     }
 });
