@@ -31,9 +31,9 @@
     },
     "canUpdateUI": true,
     "children": [
+        "Head",
         "flxScrFeed",
-        "Navigation",
-        "Head"
+        "Navigation"
     ],
     "containerweight": 100,
     "controllerInfo": {

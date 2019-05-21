@@ -31,25 +31,25 @@ define({
         function INVOKE_OBJECT_SERVICE__f786c086270f4ec4b4f1a9a0d6074ab0_Callback(members) {
             kony.application.dismissLoadingScreen();
             if (members.opstatus == 0) {
-                var tempCollection4294 = [];
-                var tempData788 = members.records;
-                for (var each in tempData788) {
-                    tempCollection4294.push({
+                var tempCollection7886 = [];
+                var tempData302 = members.records;
+                for (var each in tempData302) {
+                    tempCollection7886.push({
                         "lblUserName": {
-                            "text": tempData788[each]["username"]
+                            "text": tempData302[each]["username"]
                         },
                         "lblName": {
-                            "text": tempData788[each]["name"]
+                            "text": tempData302[each]["name"]
                         },
                         "memberId": {
-                            "text": (tempData788[each]["id"]).toString()
+                            "text": (tempData302[each]["id"]).toString()
                         },
                         "memberPath": {
-                            "text": tempData788[each]["path"]
+                            "text": tempData302[each]["path"]
                         },
                     });
                 }
-                self.view.segmentMembers.setData(tempCollection4294);
+                self.view.segmentMembers.setData(tempCollection7886);
             } else {
                 function SHOW_ALERT__g9305c4cca6a4e00880e0aa384f28553_Callback() {
                     SHOW_ALERT__g9305c4cca6a4e00880e0aa384f28553_True();
@@ -81,9 +81,5 @@ define({
         var members_httpconfigs = {};
         members_inputparam["httpconfig"] = members_httpconfigs;
         FirebaseService$members$get = mfobjectsecureinvokerasync(members_inputparam, "FirebaseService", "members", INVOKE_OBJECT_SERVICE__f786c086270f4ec4b4f1a9a0d6074ab0_Callback);
-    },
-    /** preshow defined for FrmUsers **/
-    AS_Form_aa378baa898c4e9cb91bdcba69df04e3: function AS_Form_aa378baa898c4e9cb91bdcba69df04e3(eventobject) {
-        var self = this;
     }
 });
