@@ -7,7 +7,7 @@
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "FrmUserProfile",
+            "name": "frmUser",
             "type": "forms",
             "platform": "",
             "KUID": "b832623de4744b6fbfddb009baa6b405"
@@ -17,7 +17,7 @@
             "id": "MOVE_ACTION____ia1fdca8c0ef4dda809a042e7f5778bb",
             "type": "MOVE_ACTION",
             "itemType": "FORM",
-            "itemId": "FrmUserProfile",
+            "itemId": "frmUser",
             "widgetId": "FlexContainer0c57e2ed31f6e41",
             "itemKUID": "b832623de4744b6fbfddb009baa6b405",
             "widgetKUID": "f71cf56d34de4db7b4d1437c1507618b",

@@ -1,0 +1,412 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "HeartLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Image0bc6666a1a01542": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Image0g4888df0d9b441": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Label0bc5d1cd5c23442": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Label0daf91516d79446": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "101"
+            },
+            "lblPostCaption": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            },
+            "lblPostUsername": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            }
+        },
+        {
+            "HeartLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Image0bc6666a1a01542": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Image0g4888df0d9b441": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Label0bc5d1cd5c23442": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Label0daf91516d79446": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "101"
+            },
+            "lblPostCaption": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            },
+            "lblPostUsername": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            }
+        },
+        {
+            "HeartLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Image0bc6666a1a01542": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Image0g4888df0d9b441": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Label0bc5d1cd5c23442": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Label0daf91516d79446": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "101"
+            },
+            "lblPostCaption": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            },
+            "lblPostUsername": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            }
+        },
+        {
+            "HeartLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Image0bc6666a1a01542": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Image0g4888df0d9b441": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Label0bc5d1cd5c23442": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Label0daf91516d79446": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "101"
+            },
+            "lblPostCaption": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            },
+            "lblPostUsername": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            }
+        },
+        {
+            "HeartLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Image0bc6666a1a01542": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Image0g4888df0d9b441": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Label0bc5d1cd5c23442": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Label0daf91516d79446": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "101"
+            },
+            "lblPostCaption": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            },
+            "lblPostUsername": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            }
+        },
+        {
+            "HeartLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Image0bc6666a1a01542": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Image0g4888df0d9b441": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Label0bc5d1cd5c23442": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Label0daf91516d79446": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "101"
+            },
+            "lblPostCaption": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            },
+            "lblPostUsername": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            }
+        },
+        {
+            "HeartLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Image0bc6666a1a01542": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Image0g4888df0d9b441": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Label0bc5d1cd5c23442": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Label0daf91516d79446": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "101"
+            },
+            "lblPostCaption": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            },
+            "lblPostUsername": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            }
+        },
+        {
+            "HeartLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Image0bc6666a1a01542": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Image0g4888df0d9b441": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Label0bc5d1cd5c23442": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Label0daf91516d79446": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "101"
+            },
+            "lblPostCaption": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            },
+            "lblPostUsername": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            }
+        },
+        {
+            "HeartLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Image0bc6666a1a01542": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Image0g4888df0d9b441": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Label0bc5d1cd5c23442": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Label0daf91516d79446": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "101"
+            },
+            "lblPostCaption": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            },
+            "lblPostUsername": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            }
+        },
+        {
+            "HeartLight": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Image0bc6666a1a01542": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Image0g4888df0d9b441": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "Label0bc5d1cd5c23442": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "Label0daf91516d79446": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "101"
+            },
+            "lblPostCaption": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            },
+            "lblPostUsername": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "johndoe123"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segProfilePosts",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "acc33c29bdf049fd91a7f99387bc329c",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxScrUserProfile",
+    "pf": "frmUser",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "h0dc9aab796d42e5b376cafbdbc6594c",
+    "rowcounter": 9,
+    "rowfocusskin": "sc7869d598f04f61a1fa3e9309f148fb",
+    "rowskin": "s6b88428b0a14cd8a499ea413e799a50",
+    "rowtemplate": "flxPostContainer",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s81113728e394ec098af600902000bbb",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexContainer0jc0e4b9589174c": "FlexContainer0jc0e4b9589174c",
+        "FlexGroup0d967e56f92a14f": "FlexGroup0d967e56f92a14f",
+        "FlexGroup0j43851560b2d43": "FlexGroup0j43851560b2d43",
+        "FlexGroup0j4e3fb143d3c40": "FlexGroup0j4e3fb143d3c40",
+        "HeartLight": "HeartLight",
+        "Image0bc6666a1a01542": "Image0bc6666a1a01542",
+        "Image0g4888df0d9b441": "Image0g4888df0d9b441",
+        "Label0bc5d1cd5c23442": "Label0bc5d1cd5c23442",
+        "Label0daf91516d79446": "Label0daf91516d79446",
+        "flxAvatar": "flxAvatar",
+        "flxPostContainer": "flxPostContainer",
+        "lblPostCaption": "lblPostCaption",
+        "lblPostUsername": "lblPostUsername"
+    },
+    "zindex": 1
+}

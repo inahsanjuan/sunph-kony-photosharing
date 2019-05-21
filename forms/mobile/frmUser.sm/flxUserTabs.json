@@ -1,8 +1,9 @@
 {
     "DNDConfig": null,
+    "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "80dp"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
@@ -22,7 +23,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s239a408f7754feea120efef2e690676",
+    "_skin_": "s877cd40190c426cb9e04409c9b50011",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -35,36 +36,28 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblUserName",
-        "lblName",
-        "memberId",
-        "memberPath"
+        "flxTab1",
+        "flxTab2",
+        "flxTab3"
     ],
     "clipbounds": true,
-    "containerId": true,
     "containerweight": 100,
-    "controllerInfo": {
-        "default": {
-            "channel": "mobile",
-            "name": "Flex0dfced8ffd2774dController"
-        }
-    },
     "enablescrolling": true,
-    "id": "Flex0dfced8ffd2774d",
+    "id": "flxUserTabs",
     "info": null,
-    "isTemplate": true,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "dccf86a1ba0c4f6b979dbf19ceea0a73",
-    "layouttype": 2,
+    "kuid": "fd277648e9734299a381d7f27a3ed07b",
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "segUserList",
-    "pf": "segUserList",
+    "parent": "flxScrUserProfile",
+    "pf": "frmUser",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1
+    "widgetalignment": 1,
+    "zindex": 1
 }

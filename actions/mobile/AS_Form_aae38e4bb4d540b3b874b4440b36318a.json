@@ -123,8 +123,8 @@
                     "target": {
                         "type": "Forms",
                         "propertyName": "masterdata",
-                        "widgetId": "Segment0j0278655db894a",
-                        "widgetPath": "this.view.Segment0j0278655db894a",
+                        "widgetId": "segmentMembers",
+                        "widgetPath": "this.view.segmentMembers",
                         "widgetType": "Segment",
                         "dataType": "collection",
                         "itemId": "FrmUsers",
@@ -162,7 +162,7 @@
                         "dataType": "string",
                         "itemId": "FrmUsers",
                         "parentMappingId": "ME_Mapping_aeb90b5918e84f3ba7a47f4c6a78d911",
-                        "segmentId": "Segment0j0278655db894a",
+                        "segmentId": "segmentMembers",
                         "segmentKUID": "e1ca7aaf1a5d463d8c8f554e615ee0f6",
                         "widgetKUID": "de4915a607724d84ac662d8a28ba56dc",
                         "itemKUID": "b5e3040683864a958f7ea14a57bd4af2",
@@ -198,15 +198,87 @@
                         "dataType": "string",
                         "itemId": "FrmUsers",
                         "parentMappingId": "ME_Mapping_aeb90b5918e84f3ba7a47f4c6a78d911",
-                        "segmentId": "Segment0j0278655db894a",
+                        "segmentId": "segmentMembers",
                         "segmentKUID": "e1ca7aaf1a5d463d8c8f554e615ee0f6",
                         "widgetKUID": "d026ba059b6842ef984fc81a54751152",
                         "itemKUID": "b5e3040683864a958f7ea14a57bd4af2",
                         "forkedPlatform": "all"
                     }
+                },
+                "ME_Mapping_icf48b2b9e4b400d9e592803f22865a3": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_icf48b2b9e4b400d9e592803f22865a3",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "id",
+                        "dataType": "number",
+                        "collectionId": "records",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "FirebaseService",
+                            "type": "objectsvcs",
+                            "objectname": "members",
+                            "serviceid": "c0afbf00-8c05-45b5-917b-f63f3c516652",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "memberId",
+                        "widgetPath": "this.view.memberId",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "FrmUsers",
+                        "parentMappingId": "ME_Mapping_aeb90b5918e84f3ba7a47f4c6a78d911",
+                        "segmentId": "segmentMembers",
+                        "segmentKUID": "e1ca7aaf1a5d463d8c8f554e615ee0f6",
+                        "widgetKUID": "fa3b126809b5490487a3428990cf0764",
+                        "itemKUID": "b5e3040683864a958f7ea14a57bd4af2",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_ba3ec570e1ff405c83e357a2f09a3468": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_ba3ec570e1ff405c83e357a2f09a3468",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "path",
+                        "dataType": "string",
+                        "collectionId": "records",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "FirebaseService",
+                            "type": "objectsvcs",
+                            "objectname": "members",
+                            "serviceid": "c0afbf00-8c05-45b5-917b-f63f3c516652",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "memberPath",
+                        "widgetPath": "this.view.memberPath",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "FrmUsers",
+                        "parentMappingId": "ME_Mapping_aeb90b5918e84f3ba7a47f4c6a78d911",
+                        "segmentId": "segmentMembers",
+                        "segmentKUID": "e1ca7aaf1a5d463d8c8f554e615ee0f6",
+                        "widgetKUID": "i12cafa1cd5547c1bf1db73c8a6a056d",
+                        "itemKUID": "b5e3040683864a958f7ea14a57bd4af2",
+                        "forkedPlatform": "all"
+                    }
                 }
             },
-            "mappingsOrder": ["ME_Mapping_aeb90b5918e84f3ba7a47f4c6a78d911", "ME_Mapping_f11de5374fbe44d59ed361d84671791d", "ME_Mapping_d8666297d478489b835592876abf3d4a"],
+            "mappingsOrder": ["ME_Mapping_aeb90b5918e84f3ba7a47f4c6a78d911", "ME_Mapping_f11de5374fbe44d59ed361d84671791d", "ME_Mapping_d8666297d478489b835592876abf3d4a", "ME_Mapping_icf48b2b9e4b400d9e592803f22865a3", "ME_Mapping_ba3ec570e1ff405c83e357a2f09a3468"],
             "parentId": "_IF_CONDITION_fcbdc7f69cb440f4816bc986e7290bb8",
             "callbackType": null,
             "enableMappingEditor": true

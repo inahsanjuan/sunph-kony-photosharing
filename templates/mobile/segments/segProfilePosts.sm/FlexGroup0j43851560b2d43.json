@@ -1,8 +1,9 @@
 {
     "DNDConfig": null,
+    "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "80dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -29,37 +30,28 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "220dp"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
-        "lblUserName",
-        "lblName",
-        "memberId",
-        "memberPath"
+        "lblPostUsername",
+        "lblPostCaption"
     ],
     "clipbounds": true,
     "containerId": true,
     "containerweight": 100,
-    "controllerInfo": {
-        "default": {
-            "channel": "mobile",
-            "name": "Flex0dfced8ffd2774dController"
-        }
-    },
     "enablescrolling": true,
-    "id": "Flex0dfced8ffd2774d",
+    "id": "FlexGroup0j43851560b2d43",
     "info": null,
-    "isTemplate": true,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "dccf86a1ba0c4f6b979dbf19ceea0a73",
-    "layouttype": 2,
+    "kuid": "fa54d3da1202407dbfde83910c211208",
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "segUserList",
-    "pf": "segUserList",
+    "parent": "FlexGroup0d967e56f92a14f",
+    "pf": "segProfilePosts",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

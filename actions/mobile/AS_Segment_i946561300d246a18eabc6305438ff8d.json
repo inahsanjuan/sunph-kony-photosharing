@@ -1,0 +1,28 @@
+{
+    "AS_Segment_i946561300d246a18eabc6305438ff8d": {
+        "id": "AS_Segment_i946561300d246a18eabc6305438ff8d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUser",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b832623de4744b6fbfddb009baa6b405"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f958bfcb7c914e72b438106dd9e74595",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "fetchMemberPosts",
+            "display": "fetchMemberPosts",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

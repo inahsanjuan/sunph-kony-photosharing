@@ -1,0 +1,18 @@
+{
+    "AS_Segment_h808d4f564e44934b865c92b1d06b2d8": {
+        "id": "AS_Segment_h808d4f564e44934b865c92b1d06b2d8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUser",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b832623de4744b6fbfddb009baa6b405"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

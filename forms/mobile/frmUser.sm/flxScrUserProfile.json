@@ -1,13 +1,13 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_height_": {
+    "_bottom_": {
         "type": "string",
-        "value": "44dp"
+        "value": "51dp"
     },
     "_left_": {
         "type": "string",
-        "value": "25dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -23,40 +23,55 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s7b3ff00fa8b465f897f0bc9e0951ffc",
+    "_skin_": "sa46012b6b9c4e4a922060189ee788e8",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "49dp"
     },
     "_width_": {
         "type": "string",
-        "value": "44dp"
+        "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "Image0g4888df0d9b441"
+        "flxUserWrapper",
+        "flxNavLine",
+        "flxUserTabs",
+        "flxNavLine2",
+        "segProfilePosts"
     ],
     "clipbounds": true,
-    "containerId": true,
     "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
     "enablescrolling": true,
-    "id": "flxAvatar",
+    "horizontalscrollindicator": true,
+    "id": "flxScrUserProfile",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a2dea825b6044b379929b3813fad89f7",
-    "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
-    "parent": "FlexGroup0d967e56f92a14f",
-    "pf": "segProfilePosts",
+    "kuid": "he7376bfaf86417baf2130c0fb83198c",
+    "layouttype": 4,
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "frmUser",
+    "pf": "frmUser",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
+    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "wType": "FlexContainer",
+    "track": false,
+    "verticalscrollindicator": true,
+    "vizProps": {
+        "lock": true
+    },
+    "wType": "FlexScrollContainer",
     "widgetalignment": 1,
     "zindex": 1
 }

@@ -659,6 +659,11 @@
     "protectedmodeenabled_android": "false",
     "protectedmodeenabled_androidwear": "false",
     "protectedmodeenabled_ios": "false",
+    "prototype": {
+        "createdBy": "Inah San%20Juan",
+        "createdById": "2c3f578d-1718-4344-8d65-777e7ff48b9e",
+        "createdOn": "2019-05-21T01:40:30.226Z"
+    },
     "proximity": "false",
     "read_device_identifying_information": "false",
     "referenceWidth": "375",
