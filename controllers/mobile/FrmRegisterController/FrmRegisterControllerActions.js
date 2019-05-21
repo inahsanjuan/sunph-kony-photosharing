@@ -144,12 +144,12 @@ define({
     /** ontextchange defined for txtPassword **/
     AS_TextField_j093f47e82b941d395a3305c998fdc80: function AS_TextField_j093f47e82b941d395a3305c998fdc80(eventobject, changedtext) {
         var self = this;
-        var password = this.view.txtOldPassword.text;
+        var password = this.view.txtPassword.text;
         var regexPassword = new RegExp(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/);
         if (password === null || !regexPassword.test(password)) {
-            this.view.flxOldPasswordLine.skin = sknError;
+            this.view.flxPasswordLine.skin = sknError;
         } else {
-            this.view.flxOldPasswordLine.skin = sknUnderline;
+            this.view.flxPasswordLine.skin = sknUnderline;
         }
     },
     /** ontextchange defined for txtCPassword **/
