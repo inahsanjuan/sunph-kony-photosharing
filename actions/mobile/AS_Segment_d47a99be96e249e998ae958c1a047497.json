@@ -1,0 +1,125 @@
+{
+    "AS_Segment_d47a99be96e249e998ae958c1a047497": {
+        "id": "AS_Segment_d47a99be96e249e998ae958c1a047497",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "FrmUsers",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b5e3040683864a958f7ea14a57bd4af2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bf0f7b4c4804455caf2297dbe80a163b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "selectedRow = this.view.segmentMembers.selectedRowItems[0];\n\nselectedMember = {\n  id: selectedRow.memberId.text,\n  username: selectedRow.lblUserName.text,\n  name: selectedRow.lblName.text,\n  path: selectedRow.memberPath.text\n}\n",
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false
+        }, {
+            "id": "NAVIGATE_TO_FORM___ebe1296a2e1d4fbf96a6fe5d70944979",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmUser",
+            "formKUID": "b832623de4744b6fbfddb009baa6b405",
+            "mappings": {
+                "ME_Mapping_ff12c863935746aab7f1bb617b1d50c7": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_ff12c863935746aab7f1bb617b1d50c7",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "selectedRowIndex",
+                        "propertyKey": "segmentMembers_selectedRowIndex",
+                        "widgetId": "segmentMembers",
+                        "widgetPath": "this.view.segmentMembers",
+                        "widgetType": "Segment",
+                        "dataType": "number",
+                        "itemId": "FrmUsers",
+                        "widgetKUID": "e1ca7aaf1a5d463d8c8f554e615ee0f6",
+                        "itemKUID": "b5e3040683864a958f7ea14a57bd4af2",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_ff8d387c02694a1e93ad74d82238728b": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_ff8d387c02694a1e93ad74d82238728b",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "memberId",
+                        "propertyKey": "segmentMembers_memberId",
+                        "widgetId": "segmentMembers",
+                        "widgetPath": "this.view.segmentMembers",
+                        "widgetType": "Segment",
+                        "dataType": "string",
+                        "itemId": "FrmUsers",
+                        "collectionId": "selectedItems",
+                        "widgetKUID": "e1ca7aaf1a5d463d8c8f554e615ee0f6",
+                        "itemKUID": "b5e3040683864a958f7ea14a57bd4af2",
+                        "forkedPlatform": "all",
+                        "segmentChildInfo": {
+                            "kuid": "fa3b126809b5490487a3428990cf0764",
+                            "widgetType": "Label"
+                        }
+                    },
+                    "target": {
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_jc5416a1c07a4d0d8eb95d14715d185b": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_jc5416a1c07a4d0d8eb95d14715d185b",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "lblName",
+                        "propertyKey": "segmentMembers_lblName",
+                        "widgetId": "segmentMembers",
+                        "widgetPath": "this.view.segmentMembers",
+                        "widgetType": "Segment",
+                        "dataType": "string",
+                        "itemId": "FrmUsers",
+                        "collectionId": "selectedItems",
+                        "widgetKUID": "e1ca7aaf1a5d463d8c8f554e615ee0f6",
+                        "itemKUID": "b5e3040683864a958f7ea14a57bd4af2",
+                        "forkedPlatform": "all",
+                        "segmentChildInfo": {
+                            "kuid": "d026ba059b6842ef984fc81a54751152",
+                            "widgetType": "Label"
+                        }
+                    },
+                    "target": {
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_ff12c863935746aab7f1bb617b1d50c7", "ME_Mapping_ff8d387c02694a1e93ad74d82238728b", "ME_Mapping_jc5416a1c07a4d0d8eb95d14715d185b"],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "enableNavigationObj": true,
+            "navigationObj": "{\n\"segmentMembers_selectedRowIndex\" : self.view.segmentMembers.selectedRowIndex,\n\"segmentMembers_memberId\" : kony.visualizer.getPropertyValue(self.view.segmentMembers.selectedItems[0].memberId, \"text\"),\n\"segmentMembers_lblName\" : kony.visualizer.getPropertyValue(self.view.segmentMembers.selectedItems[0].lblName, \"text\"),\n\"_meta_\" : {\n\t\"eventName\" : \"onrowclick\",\n\t\"widgetId\" : \"segmentMembers\"\n}\n}",
+            "isCustomInput": false
+        }]
+    }
+}

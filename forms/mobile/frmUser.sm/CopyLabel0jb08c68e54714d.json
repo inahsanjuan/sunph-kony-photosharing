@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "10dp"
+        "value": "0dp"
     },
     "_margin_": [
         1,
@@ -22,15 +22,15 @@
         0,
         0
     ],
-    "_skin_": "se6dc9a69a6f43ff9102a517c5bef7c7",
-    "_text_": "johndoe123",
+    "_skin_": "sa5b0d48b6154247922346761937006a",
+    "_text_": "following",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "25dp"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "100%"
     },
     "_wrapping_": 2,
     "android": {
@@ -40,10 +40,9 @@
         }
     },
     "canUpdateUI": true,
-    "containerId": true,
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "lblPostUsername",
+    "contentalignment": 5,
+    "id": "CopyLabel0jb08c68e54714d",
     "info": null,
     "ipad": {
         "psp": {
@@ -57,10 +56,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ac8dd6517cda4427bdf0c046e32cfefa",
+    "kuid": "gc408e6aaf67442a9c1ba402ba163d2c",
     "name": "kony.ui.Label",
-    "parent": "FlexGroup0j43851560b2d43",
-    "pf": "segProfilePosts",
+    "parent": "flxTab3",
+    "pf": "frmUser",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

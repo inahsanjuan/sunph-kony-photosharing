@@ -42,7 +42,7 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "Segment0j0278655db894a"
+        "segmentMembers"
     ],
     "clipbounds": true,
     "containerweight": 100,

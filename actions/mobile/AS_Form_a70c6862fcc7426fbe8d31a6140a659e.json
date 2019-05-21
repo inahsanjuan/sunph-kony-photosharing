@@ -1,0 +1,24 @@
+{
+    "AS_Form_a70c6862fcc7426fbe8d31a6140a659e": {
+        "id": "AS_Form_a70c6862fcc7426fbe8d31a6140a659e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUser",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b832623de4744b6fbfddb009baa6b405"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d171326e96b444c6b5e9908bf879efb7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "// alert(\"selectedMember\");\nthis.view.Head.lblHeadTitle.text = selectedMember.username;\nthis.view.lblMemberName.text = selectedMember.name;\nthis.view.lblMemberDescription.text = selectedMember.desc;\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

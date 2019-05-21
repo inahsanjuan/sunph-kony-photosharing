@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "10dp"
+        "value": "25dp"
     },
     "_margin_": [
         1,
@@ -22,11 +22,11 @@
         0,
         0
     ],
-    "_skin_": "se6dc9a69a6f43ff9102a517c5bef7c7",
-    "_text_": "johndoe123",
+    "_skin_": "s014f67fff4549208605c1ce27bcf06b",
+    "_text_": "Label",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "60dp"
     },
     "_width_": {
         "type": "ref",
@@ -43,7 +43,7 @@
     "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblPostUsername",
+    "id": "memberId",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,11 +56,11 @@
         }
     },
     "iscustomlayout": false,
-    "isvisible": true,
-    "kuid": "ac8dd6517cda4427bdf0c046e32cfefa",
+    "isvisible": false,
+    "kuid": "fa3b126809b5490487a3428990cf0764",
     "name": "kony.ui.Label",
-    "parent": "FlexGroup0j43851560b2d43",
-    "pf": "segProfilePosts",
+    "parent": "Flex0dfced8ffd2774d",
+    "pf": "segUserList",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

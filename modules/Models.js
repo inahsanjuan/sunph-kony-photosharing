@@ -6,3 +6,4 @@ class User {
     this.password = password;
   }
 }
+
